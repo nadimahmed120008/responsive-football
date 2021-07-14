@@ -205,20 +205,30 @@ body {
 
 /* media query for mobile  */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
+  .nav-bar{
+    width: 100%;
+    display: block;
+    
+  }
+ 
   .player-list {
     display: block;
   }
-  .container {
+  .container{
     display: block;
     padding: 50px 20px;
   }
   .banner,
-  .banner-photo {
+  .banner-photo{
     width: 100%;
     margin: 30px 0px;
   }
   .banner-title {
     font-size: 35px;
   }
+  .highlights-zone{
+    display: block
+  }
+
 }
